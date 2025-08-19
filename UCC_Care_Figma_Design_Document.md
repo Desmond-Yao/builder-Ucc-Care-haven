@@ -5,6 +5,7 @@
 **UCC Care** is a comprehensive mental health support platform designed specifically for university students. The platform provides confidential counseling services, wellness tracking, resource access, and secure communication between students, counselors, and administrators.
 
 ### Core Purpose
+
 - Provide confidential mental health support for university students
 - Enable secure communication between students and professional counselors
 - Offer comprehensive resource library for self-help and wellness
@@ -15,35 +16,43 @@
 ## 🎨 Design System & Brand Identity
 
 ### Color Palette (Mental Health Focused)
+
 The color scheme is specifically designed for mental wellness and trust-building:
 
 **Primary Colors:**
+
 - **Calm Blue**: `hsl(195, 85%, 45%)` - Primary brand color, trust and stability
 - **Primary Foreground**: `hsl(0, 0%, 100%)` - White text on primary
 
 **Secondary Colors:**
+
 - **Comfort Lavender**: `hsl(250, 25%, 95%)` - Soft, comforting backgrounds
 - **Secondary Foreground**: `hsl(215, 25%, 27%)` - Dark text
 
 **Accent Colors:**
+
 - **Hope Green**: `hsl(140, 30%, 90%)` - Success states and positive actions
 - **Trust Teal**: `hsl(180, 50%, 75%)` - Secondary accents
 
 **Status Colors:**
+
 - **Success**: `hsl(140, 60%, 50%)` - Positive feedback and confirmations
 - **Warning**: `hsl(45, 90%, 60%)` - Gentle alerts and important notices
 - **Destructive**: `hsl(355, 70%, 60%)` - Soft coral for critical actions
 
 **Neutral Colors:**
+
 - **Background**: `hsl(210, 20%, 98%)` - Main page background
 - **Foreground**: `hsl(215, 25%, 27%)` - Primary text
 - **Muted**: `hsl(210, 20%, 96%)` - Subtle backgrounds
 - **Border**: `hsl(215, 20%, 88%)` - Element separators
 
 ### Dark Mode Support
+
 All colors have corresponding dark mode variants with adjusted HSL values for accessibility and eye comfort during extended use.
 
 ### Typography & Spacing
+
 - **Border Radius**: `0.75rem` (12px) - Soft, friendly edges throughout
 - **Container Max Width**: `1400px` with centered alignment
 - **Responsive Breakpoints**: Mobile-first design with 2xl breakpoint at 1400px
@@ -52,15 +61,18 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 
 ## 👥 User Roles & Interface Architecture
 
-### 1. **Student Interface** 
-*Target Users: University students seeking mental health support*
+### 1. **Student Interface**
+
+_Target Users: University students seeking mental health support_
 
 **Entry Points:**
+
 - Landing page with clear role selection
 - Student login (`/student/login`)
 - Multi-step registration (`/student/register`)
 
 **Core Dashboard Features:**
+
 - Personal wellness tracking with mood logs
 - Quick access to confidential report submission
 - Resource library with categorized content
@@ -68,13 +80,16 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 - Privacy settings and consent management
 
 ### 2. **Counselor Interface**
-*Target Users: Licensed mental health professionals*
+
+_Target Users: Licensed mental health professionals_
 
 **Entry Points:**
+
 - Professional login with institutional verification
 - Secure dashboard access (`/counselor/dashboard`)
 
 **Core Management Features:**
+
 - Case prioritization system (urgent/high/medium/low)
 - Secure student communication interface
 - Private case notes and documentation
@@ -82,13 +97,16 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 - Workload and schedule management
 
 ### 3. **Administrator Interface**
-*Target Users: Platform administrators and institutional staff*
+
+_Target Users: Platform administrators and institutional staff_
 
 **Entry Points:**
+
 - High-security login with 2FA requirement
 - System-wide management console (`/admin/dashboard`)
 
 **Core Administrative Features:**
+
 - User account management across all roles
 - Platform analytics and usage statistics
 - Resource content management system
@@ -102,7 +120,9 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 ### **Public Pages**
 
 #### 1. Landing Page (`/`)
+
 **Layout Structure:**
+
 - **Hero Section**: Clear value proposition with calming imagery
 - **Role Selection Cards**: Student, Counselor, Admin access points
 - **Trust Indicators**: Privacy badges, security certifications
@@ -110,10 +130,12 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 - **Footer**: Contact information, crisis resources, privacy policy
 
 #### 2. Anonymous Report (`/anonymous-report`)
+
 **Layout Structure:**
+
 - **Progress Indicator**: Multi-step form completion status
 - **Privacy Assurance**: Clear explanation of anonymity protection
-- **Form Sections**: 
+- **Form Sections**:
   - Issue description with guided prompts
   - Urgency level selection with clear indicators
   - Optional demographic information
@@ -121,7 +143,9 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 - **Next Steps**: Clear instructions for follow-up access
 
 #### 3. Resource Library (`/resources`)
+
 **Layout Structure:**
+
 - **Search & Filter Bar**: Category tags, content type filters
 - **Resource Grid**: Card-based layout with thumbnails
 - **Quick Access Sections**: Crisis resources, popular content
@@ -131,14 +155,18 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 ### **Student Pages**
 
 #### 4. Student Login (`/student/login`)
+
 **Layout Structure:**
+
 - **Clean Form Design**: Email, password, remember me option
 - **Security Features**: Password visibility toggle, strength indicator
 - **Alternative Actions**: Registration link, password reset
 - **Privacy Reminder**: Confidentiality assurance messaging
 
 #### 5. Student Registration (`/student/register`)
+
 **Multi-Step Layout:**
+
 - **Step 1 - Personal Information**: Basic details with privacy explanation
 - **Step 2 - Emergency Contacts**: Required safety information
 - **Step 3 - Security Setup**: Password creation with strength requirements
@@ -146,7 +174,9 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 - **Progress Tracking**: Visual step completion indicator
 
 #### 6. Student Dashboard (`/student/dashboard`)
+
 **Layout Sections:**
+
 - **Welcome Header**: Personalized greeting with quick stats
 - **Mood Tracking Widget**: Visual mood entry with trend display
 - **Quick Actions Panel**: Report submission, resource access, messages
@@ -155,7 +185,9 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 - **Emergency Resources**: Always-visible crisis support
 
 #### 7. Authenticated Report (`/report`)
+
 **Layout Structure:**
+
 - **Pre-filled Information**: Student details auto-populated
 - **Enhanced Form Fields**: Detailed issue categorization
 - **Attachment Options**: File upload for relevant documents
@@ -163,7 +195,9 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 - **Case Assignment**: Automatic or preferred counselor selection
 
 #### 8. Report Status Tracking (`/report-status`)
+
 **Layout Structure:**
+
 - **Case Overview**: Status timeline with clear progress indicators
 - **Communication Thread**: Secure messaging interface
 - **Document Sharing**: Safe file exchange area
@@ -172,14 +206,18 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 ### **Counselor Pages**
 
 #### 9. Counselor Login (`/counselor/login`)
+
 **Professional Layout:**
+
 - **Institutional Branding**: University/organization logos
 - **Enhanced Security**: Multi-factor authentication prompts
 - **Professional Verification**: Credential confirmation process
 - **Quick Access**: Emergency case notifications
 
 #### 10. Counselor Dashboard (`/counselor/dashboard`)
+
 **Professional Interface:**
+
 - **Case Priority Queue**: Color-coded urgency system
 - **Active Cases Panel**: Current assignments with quick actions
 - **Calendar Integration**: Appointment scheduling and reminders
@@ -190,14 +228,18 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 ### **Administrator Pages**
 
 #### 11. Admin Login (`/admin/login`)
+
 **High-Security Layout:**
+
 - **Two-Factor Authentication**: Mandatory security verification
 - **Access Logging**: Real-time login attempt monitoring
 - **Role Verification**: Administrative privilege confirmation
 - **System Health**: Quick platform status overview
 
 #### 12. Admin Dashboard (`/admin/dashboard`)
+
 **Comprehensive Management Interface:**
+
 - **System Overview**: Platform-wide statistics and health metrics
 - **User Management**: Account creation, modification, deactivation
 - **Content Management**: Resource library administration
@@ -210,12 +252,14 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 ## 🔧 Component Library & UI Patterns
 
 ### **Navigation Components**
+
 - **Main Navigation**: Role-aware menu system
 - **Breadcrumbs**: Clear page hierarchy
 - **Sidebar Navigation**: Collapsible menu for dashboards
 - **Footer Navigation**: Legal, support, and resource links
 
 ### **Form Components**
+
 - **Input Fields**: Consistent styling with validation states
 - **Select Dropdowns**: Searchable options with clear labeling
 - **Radio/Checkbox Groups**: Clear selection indicators
@@ -223,6 +267,7 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 - **Form Validation**: Real-time feedback with helpful error messages
 
 ### **Data Display Components**
+
 - **Cards**: Content containers with consistent padding and shadows
 - **Tables**: Sortable, filterable data displays
 - **Progress Indicators**: Step completion and loading states
@@ -230,6 +275,7 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 - **Status Badges**: Color-coded indicators for case priorities
 
 ### **Interactive Components**
+
 - **Buttons**: Primary, secondary, and destructive action styles
 - **Modals & Dialogs**: Confirmation and detail view overlays
 - **Tooltips**: Contextual help and information
@@ -237,6 +283,7 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 - **Tabs**: Content organization and navigation
 
 ### **Feedback Components**
+
 - **Toast Notifications**: Success, warning, and error messages
 - **Loading States**: Skeleton screens and spinners
 - **Empty States**: Helpful messaging when no content exists
@@ -247,12 +294,14 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 ## 🔐 Security & Privacy Design Considerations
 
 ### **Visual Trust Indicators**
+
 - **Privacy Badges**: Visible security certifications
 - **Encryption Indicators**: Visual confirmation of data protection
 - **Anonymous Options**: Clear identification of anonymous features
 - **Confidentiality Reminders**: Consistent messaging about privacy
 
 ### **Access Control Visual Cues**
+
 - **Role-Based UI**: Different interfaces for different user types
 - **Permission Indicators**: Clear visual feedback for access levels
 - **Session Management**: Visible login status and timeout warnings
@@ -263,17 +312,20 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 ## 📱 Responsive Design Requirements
 
 ### **Mobile-First Approach**
+
 - **Touch-Friendly**: Minimum 44px touch targets
 - **Readable Text**: Optimized font sizes for mobile screens
 - **Simplified Navigation**: Collapsible menus and clear hierarchy
 - **Quick Actions**: One-tap access to critical features
 
 ### **Tablet Optimization**
+
 - **Adaptive Layouts**: Utilize available screen real estate
 - **Enhanced Input**: Support for both touch and keyboard input
 - **Multi-Column Layouts**: Efficient information display
 
 ### **Desktop Experience**
+
 - **Multi-Panel Layouts**: Efficient use of large screens
 - **Keyboard Navigation**: Full accessibility support
 - **Advanced Features**: Complex data visualization and management tools
@@ -285,6 +337,7 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 ### **Critical User Journeys**
 
 #### **Emergency Support Flow**
+
 1. **Discovery**: Anonymous reporting prominently displayed
 2. **Immediate Access**: No registration required for crisis support
 3. **Triage**: Automatic priority assignment based on urgency
@@ -292,6 +345,7 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 5. **Follow-up**: Continued support and resource provision
 
 #### **Routine Support Flow**
+
 1. **Registration**: Guided account creation with privacy assurance
 2. **Dashboard Familiarization**: Onboarding tour of available features
 3. **Report Submission**: Detailed issue description with category selection
@@ -300,6 +354,7 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 6. **Feedback & Closure**: Case satisfaction and follow-up resources
 
 #### **Counselor Case Management Flow**
+
 1. **Daily Login**: Security verification and case queue review
 2. **Priority Assessment**: Urgent cases highlighted for immediate attention
 3. **Case Review**: Student information and issue analysis
@@ -309,6 +364,7 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 7. **Case Closure**: Resolution confirmation and follow-up planning
 
 ### **Accessibility Requirements**
+
 - **WCAG 2.1 AA Compliance**: Full accessibility standard adherence
 - **Screen Reader Support**: Semantic HTML and ARIA labels
 - **Keyboard Navigation**: Complete functionality without mouse
@@ -321,16 +377,19 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 ## 📊 Data Visualization & Analytics
 
 ### **Student Wellness Tracking**
+
 - **Mood Charts**: Trend visualization with color-coded indicators
 - **Progress Graphs**: Goal achievement and milestone tracking
 - **Engagement Metrics**: Resource usage and interaction patterns
 
 ### **Counselor Performance Dashboards**
+
 - **Caseload Visualization**: Active cases with priority distribution
 - **Response Time Metrics**: Communication efficiency tracking
 - **Outcome Analytics**: Case resolution success rates
 
 ### **Administrative Analytics**
+
 - **Platform Usage**: User engagement and feature adoption
 - **System Performance**: Technical metrics and health monitoring
 - **Compliance Reporting**: Privacy and security audit visualization
@@ -340,17 +399,20 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 ## 🚀 Technical Implementation Notes for Design
 
 ### **Component Architecture**
+
 - **Atomic Design**: Button → Card → Dashboard pattern
 - **Consistent Spacing**: 8px grid system throughout
 - **Standardized Animations**: Smooth transitions for state changes
 - **Icon Library**: Lucide React for consistent iconography
 
 ### **State Management Patterns**
+
 - **Loading States**: Skeleton screens for better perceived performance
 - **Error Handling**: Graceful degradation with clear error messaging
 - **Form Validation**: Real-time feedback with clear success indicators
 
 ### **Performance Considerations**
+
 - **Progressive Loading**: Critical content first, progressive enhancement
 - **Image Optimization**: Proper sizing and format selection
 - **Code Splitting**: Route-based loading for faster initial page loads
@@ -360,6 +422,7 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 ## 🎯 Design Priorities & Principles
 
 ### **Core Design Principles**
+
 1. **Trust & Safety**: Every design decision reinforces user confidence
 2. **Accessibility First**: Universal design for all users
 3. **Privacy by Design**: Visual confirmation of data protection
@@ -367,6 +430,7 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 5. **Clear Communication**: Remove ambiguity in all interactions
 
 ### **Success Metrics**
+
 - **User Engagement**: Time spent on platform, feature adoption
 - **Case Resolution**: Successful completion rates and satisfaction
 - **Accessibility**: Compliance metrics and user feedback
@@ -378,24 +442,28 @@ All colors have corresponding dark mode variants with adjusted HSL values for ac
 ## 📝 Implementation Checklist for Figma
 
 ### **Design System Setup**
+
 - [ ] Create color palette with HSL values provided
 - [ ] Establish typography scale and spacing system
 - [ ] Build component library with consistent styling
 - [ ] Design responsive breakpoint system
 
 ### **Page Templates**
+
 - [ ] Create all 12 page layouts with proper information architecture
 - [ ] Design mobile, tablet, and desktop versions
 - [ ] Include all user states (empty, loading, error, success)
 - [ ] Add accessibility annotations and specifications
 
 ### **Component Library**
+
 - [ ] Design all UI components with variants and states
 - [ ] Create interaction specifications and micro-animations
 - [ ] Document usage guidelines and accessibility requirements
 - [ ] Build responsive behavior specifications
 
 ### **User Flow Documentation**
+
 - [ ] Map complete user journeys for all three roles
 - [ ] Design onboarding and tutorial flows
 - [ ] Create error and edge case handling
